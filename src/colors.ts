@@ -1,4 +1,4 @@
-export default Colors = {
+const Colors = {
   red: {
     default: "hsla(0, 100%, 50%, 1)",
     sat100: "hsla(0, 100%, 50%, 1)",
@@ -362,4 +362,6 @@ export default Colors = {
     opacity20: "hsla(330, 100%, 50%, 0.2)",
     opacity10: "hsla(330, 100%, 50%, 0.1)",
   },
-};
+} as const;
+
+export default Colors;

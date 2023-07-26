@@ -1,4 +1,4 @@
-export default Spacing = {
+const FontSizes = {
   xhalf: "1px",
   x1: "2px",
   x2: "4px",
@@ -26,3 +26,5 @@ export default Spacing = {
   x24: "48px",
   x25: "50px",
 };
+
+export default FontSizes;
